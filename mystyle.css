@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Gothic&family=Secular+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  'Secular One', sans-serif; 
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Secular One', sans-serif;
+*/
+}
+
+body{
+   background-color: rgb(226, 226, 226); 
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    padding: 5px 5px;
+    background-color: rgb(91, 209, 228);
+    margin-bottom: 5px;
+}
+header ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header ul li{
+    padding: 20px;
+    list-style: none;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 10px 35px;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+header ul li a:hover,
+header ul li a.About{
+    background: #ffffff;
+    color: #0dbeeb;
+}
+
+main{
+    
+    max-height: 500px;
+    width: 950px;
+    margin: 0px 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    box-shadow: 0px 0px 7px#474747;
+    overflow-y: auto;
+}
+
+main::-webkit-scrollbar{
+    background: none;
+}
+main::-webkit-scrollbar-thumb{
+    background: #0997bb;
+    border-radius: 1px;
+
+}
+
+
+
+main p{
+    color: rgb(73, 72, 72);
+    margin: 10px 70px;
+}
+
+h1,h2{
+    border-left: 3px solid #0dbeeb;
+}
+
+main h1,h2, h3{
+    display: inline;
+    text-align: center;
+    padding: 10px ;
+    color: #0dbeeb;
+
+}
+header ul li a.About{
+    background: #ffffff;
+    color: #0dbeeb;
+}
+
+main img{
+    width: 90%;
+    margin: 5px 50px;
+    box-shadow: 0 0 12px #474747;
+border-radius: 10px;
+}
+
+main span{
+    color: rgb(14, 143, 182);
+}
+
+main table{
+border-collapse: collapse;
+   box-shadow: 0 0 5px;
+   margin: 10px auto;
+   text-align: center;
+  
+}
+
+main table tr th, td{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #0dbeeb;
+}
+
+main table tr th{
+    background: #0dbeeb;
+}
+main table tr th, td{
+    width: 200px;
+    height: 30px;
+    
+    border: 1px solid #0dbeeb;
+}
+
+main table caption{
+    border-radius: 10px;
+    margin: 5px 0px;
+    background: #0dbeeb;
+    font-size: x-large;
+}
+
+.third{
+    font-size: x-large;
+    background: #0dbeeb;
+}
+
+#secundario{
+    width: 410px;
+    position: absolute;
+   top: 90px;
+   right: 10px;
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+}
+
+
+.search{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.search input{
+    width: 240px;
+    height: 40px;
+    padding: 0px 20px;
+    position: absolute;
+    outline: none;
+    border-radius: 30px;
+    border: 0 ;
+}
+
+.contenedorb {
+    margin: 5px;
+	position: absolute;
+    top: 30px;
+    left: 300px;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+}
+
+input {
+	outline: none;
+	box-sizing: border-box;
+	height: 40px;
+	width: 300px;
+	padding: 0 20px;
+	color: #000;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #ffffff;
+	transition: all .7s ease;
+}
+
+#tercero{
+    width: 410px;
+    position: absolute;
+   top: 350px;
+   right: 10px;
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+   margin-top: 15px;
+}
+
+
+
+
+
+
